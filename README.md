@@ -1,6 +1,8 @@
 # JellyFish
 A Unity Scriptable Object Workflow SDK inspired by Ryan Hipple's Unite 2017 talk "Game Architecture with Scriptable Objects". I hope this SDK helps you the way it helps me.
 
+![JellyFish Astronaut](https://w.wallhaven.cc/full/73/wallhaven-73w26e.png)
+
 # Features
 1. Editor Tools - Useful Unity Editor Tools.
 	1. Sprite Extractor
