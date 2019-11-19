@@ -1,0 +1,20 @@
+{
+  "Resources": {
+    "Artwork": {
+    },
+    "Tilemaps": {
+      "Maps": "Maps",
+      "Palettes": "Palettes",
+      "Tiles": "Tiles"
+    },
+    "ScriptableObjects": {
+    },
+    "Prefabs": {},
+    "Scenes": "Scenes"
+  },
+  "Scripts": {
+    "Runtime": {
+      "Engine": "Engine"
+    }
+  }
+}

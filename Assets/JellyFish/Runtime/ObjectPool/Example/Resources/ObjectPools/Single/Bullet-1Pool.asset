@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da5d4a8fca0dc648adfcf1f23444fcc, type: 3}
+  m_Name: Bullet-1Pool
+  m_EditorClassIdentifier: 
+  DefaultSize:
+    ConstantValue: 100
+    UseConstant: 1
+    Variable: {fileID: 0}
+  ExpandPool: 1
+  ExpandSize:
+    ConstantValue: 25
+    UseConstant: 1
+    Variable: {fileID: 0}
+  Prefab: {fileID: 4480203030826393307, guid: 4cb0fb041ce0417499169259430bcb25, type: 3}
+  Pool: []
