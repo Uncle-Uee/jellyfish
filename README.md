@@ -31,4 +31,5 @@ There are many more other features that are not listed. I will make Example Scen
 
 # Details
 [LinkedIn](https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/)
+
 [Itchio](https://uee.itch.io/)
