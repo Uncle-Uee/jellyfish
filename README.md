@@ -30,8 +30,8 @@ There are many more other features that are not listed. I will make Example Scen
 2. [Ryan Hipple](https://github.com/roboryantron) - Game Architecture with Scriptable Objects Unite 2017 Talk
 3. [Kybernetik](https://kybernetikgames.github.io/kailas-dierk/) - UltEvents
 4. [Thor Brigsted](https://github.com/Siccity) - xNode
+5. [JellyFish-Astronaut](https://w.wallhaven.cc/full/g8/wallhaven-g8dm6e.jpg) - JellyFish Astronaut Image
 
 # Details
-[LinkedIn](https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/)
-
+[LinkedIn](https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/)  
 [Itchio](https://uee.itch.io/)
