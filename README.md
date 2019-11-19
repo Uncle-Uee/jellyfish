@@ -1,5 +1,6 @@
 # JellyFish
-A Unity Scriptable Object Workflow SDK inspired by Ryan Hipple's Unite 2017 talk "Game Architecture with Scriptable Objects". I hope this SDK helps you the way it helps me.
+A Unity Scriptable Object Workflow SDK inspired by Ryan Hipple's Unite 2017 talk "Game Architecture with Scriptable Objects".  
+I hope this SDK helps you the way it helps me.
 
 ![JellyFish Astronaut](https://w.wallhaven.cc/full/g8/wallhaven-g8dm6e.jpg)
 
@@ -30,7 +31,7 @@ There are many more other features that are not listed. I will make Example Scen
 2. [Ryan Hipple](https://github.com/roboryantron) - Game Architecture with Scriptable Objects Unite 2017 Talk
 3. [Kybernetik](https://kybernetikgames.github.io/kailas-dierk/) - UltEvents
 4. [Thor Brigsted](https://github.com/Siccity) - xNode
-5. [JellyFish-Astronaut](https://w.wallhaven.cc/full/g8/wallhaven-g8dm6e.jpg) - JellyFish Astronaut Image
+5. [JellyFish-Astronaut](https://wallhaven.cc/w/g8dm6e) - JellyFish Astronaut Image
 
 # Details
 [LinkedIn](https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/)  
