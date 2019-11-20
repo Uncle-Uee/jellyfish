@@ -15,7 +15,7 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 namespace JellyFish.ObjectPool.Single
 {
-    [CreateAssetMenu(menuName = "Uee/Object Pool/Single Pool")]
+    [CreateAssetMenu(menuName = "JellyFish/Object Pool/Single Pool")]
     public class SinglePool : ObjectPoolBase
     {
         #region VARIABLES

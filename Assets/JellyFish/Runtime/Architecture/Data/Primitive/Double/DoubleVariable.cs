@@ -38,7 +38,7 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 namespace JellyFish.Data.Primitive
 {
-    [CreateAssetMenu(menuName = "Uee/Data/Primitive/Double", fileName = "Double")]
+    [CreateAssetMenu(menuName = "JellyFish/Data/Primitive/Double", fileName = "Double")]
     public class DoubleVariable : ScriptableObject
     {
 #if UNITY_EDITOR

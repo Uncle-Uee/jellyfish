@@ -18,7 +18,7 @@ namespace JellyFish.ObjectPool.Master
     /// <summary>
     /// The Master Pool Consists of a Dictionary with a Key = Int and a Value = List. This Master Pool only needs to be created once and can be used by multiple objects.
     /// </summary>
-    [CreateAssetMenu(menuName = "Uee/Object Pool/Master Pool")]
+    [CreateAssetMenu(menuName = "JellyFish/Object Pool/Master Pool")]
     public class MasterPool : ObjectPoolBase
     {
         #region VARIABLES

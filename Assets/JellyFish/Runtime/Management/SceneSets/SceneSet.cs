@@ -15,7 +15,7 @@ using UnityEditor.SceneManagement;
 // ReSharper disable once CheckNamespace
 namespace JellyFish.Management.SceneSets
 {
-    [CreateAssetMenu(menuName = "Uee/Management/Scene/Scene Set")]
+    [CreateAssetMenu(menuName = "JellyFish/Management/Scene/Scene Set")]
     public class SceneSet : ScriptableObject
     {
         /// <summary>

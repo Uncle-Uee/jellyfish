@@ -34,3 +34,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+.idea/.gitignore
+.idea/.idea.jellyfish/riderModule.iml
+.idea/.idea.jellyfish/.idea/contentModel.xml
+.idea/.idea.jellyfish/.idea/encodings.xml
+.idea/.idea.jellyfish/.idea/indexLayout.xml
+.idea/.idea.jellyfish/.idea/misc.xml
+.idea/.idea.jellyfish/.idea/modules.xml
+.idea/.idea.jellyfish/.idea/projectSettingsUpdater.xml
+.idea/.idea.jellyfish/.idea/vcs.xml
