@@ -27,7 +27,7 @@ There are many more other features that are not listed. I will make Example Scen
 2. [SimpleJSON](http://wiki.unity3d.com/index.php/SimpleJSON)
 
 # Contributors
-1. [Kearan Peterson](https://github.com/BLUDRAG) - Mentor and Nakama
+1. [Kearan Petersen](https://github.com/BLUDRAG) - Mentor and Nakama
 2. [Ryan Hipple](https://github.com/roboryantron) - Game Architecture with Scriptable Objects Unite 2017 Talk
 3. [Kybernetik](https://kybernetikgames.github.io/kailas-dierk/) - UltEvents
 4. [Thor Brigsted](https://github.com/Siccity) - xNode
