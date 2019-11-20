@@ -8,7 +8,7 @@ using UnityEngine;
 // ReSharper disable once CheckNamespace
 namespace JellyFish.Management.SceneSets
 {
-    [CreateAssetMenu(menuName = "Uee/Management/Scene/Scene Set Reference")]
+    [CreateAssetMenu(menuName = "JellyFish/Management/Scene/Scene Set Reference")]
     public class SceneSetReference : ScriptableObject
     {
         /// <summary>
