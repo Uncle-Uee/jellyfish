@@ -17,9 +17,7 @@
         ]
       },
       "[logic]": {
-        "[events]": {
-          "GameObject": "OnValidate"
-        }
+        "GameObject": "[events]"
       }
     }
   }
