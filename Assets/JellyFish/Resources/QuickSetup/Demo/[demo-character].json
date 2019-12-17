@@ -17,10 +17,9 @@
         ]
       },
       "[logic]": {
-        "GameObject": "[events]",
-        "Components": [
-          "SomeScript"
-        ]
+        "[events]": {
+          "GameObject": "OnValidate"
+        }
       }
     }
   }
