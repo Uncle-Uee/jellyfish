@@ -7,19 +7,19 @@
 using JellyFish.EditorTools.QuickSetup.Utilities;
 using UnityEditor;
 
-namespace JellyFish.EditorTools.QuickSetup.Player
+namespace JellyFish.EditorTools.QuickSetup
 {
-    public static class QSPlatformerPlayer
+    public static class QSDeserialize
     {
         #region METHODS
 
         /// <summary>
-        /// Create Platformer Player.
+        /// Deserialize Json Settings File.
         /// </summary>
-        [MenuItem("Assets/QuickSetup/Demo", priority = 10)]
+        [MenuItem("Assets/QuickSetup/Deserialize", priority = 20)]
         public static void CreatePlatformerPlayer()
         {
-            QuickSetupUtilities.CreateGameObject();
+            QSUtilities.CreateGameObject();
         }
 
         #endregion

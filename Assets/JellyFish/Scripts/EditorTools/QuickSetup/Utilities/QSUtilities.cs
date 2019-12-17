@@ -15,7 +15,7 @@ using UnityEditor;
 
 namespace JellyFish.EditorTools.QuickSetup.Utilities
 {
-    public static class QuickSetupUtilities
+    public static class QSUtilities
     {
         #region METHODS
 
