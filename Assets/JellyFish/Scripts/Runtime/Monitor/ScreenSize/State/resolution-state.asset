@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602fd5f4126d7e648bdc23a87720f99c, type: 3}
+  m_Name: resolution-state
+  m_EditorClassIdentifier: 
+  DesignScreenResolution: {x: 1920, y: 1080}
+  OnScreenResolutionChanged:
+    _PersistentCalls:
+    - _Target: {fileID: 11500000, guid: 9a16f0dbd426d2b4b891c26586b03af7, type: 3}
+      _MethodName: 
+      _PersistentArguments: []

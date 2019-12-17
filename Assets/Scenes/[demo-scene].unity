@@ -313,7 +313,6 @@ Transform:
   m_Children:
   - {fileID: 140405417}
   - {fileID: 709105051}
-  - {fileID: 393947620}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -331,38 +330,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DontDestroy:
     ConstantValue: 0
-    UseConstant: 0
+    UseConstant: 1
     Variable: {fileID: 11400000, guid: c44a870caa7537848b793c8e5cf6dd54, type: 2}
---- !u!1 &393947619
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 393947620}
-  m_Layer: 0
-  m_Name: '[object-pool]'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &393947620
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 393947619}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 341889676}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DontDestroy:
     ConstantValue: 0
-    UseConstant: 0
+    UseConstant: 1
     Variable: {fileID: 11400000, guid: 050a878d48bf2f942b87cb924e2b74fd, type: 2}
   MainGameCamera: {fileID: 1368950005}
   GameCamera:
@@ -601,6 +570,8 @@ MonoBehaviour:
     ConstantValue: 0
     UseConstant: 0
     Variable: {fileID: 11400000, guid: 04a2361f30d539c44b7f310fc88a7249, type: 2}
+  ResolutionState: {fileID: 11400000, guid: c16b17bccae29284aaff380e7cf165cf, type: 2}
+  UseNewWorldSizeCalculation: 1
   ShowDebugLog: 0
 --- !u!1 &954165256
 GameObject:
@@ -822,6 +793,7 @@ GameObject:
   - component: {fileID: 1368950005}
   - component: {fileID: 1368950004}
   - component: {fileID: 1368950006}
+  - component: {fileID: 1368950007}
   m_Layer: 0
   m_Name: '[camera]'
   m_TagString: MainCamera
@@ -914,6 +886,48 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &1368950007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368950002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a16f0dbd426d2b4b891c26586b03af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PixelPerfectCamera: {fileID: 1368950006}
+  MasterPPU:
+    ConstantValue: 16
+    UseConstant: 1
+    Variable: {fileID: 0}
+  PixelsPerUnit: []
+  ResolutionState:
+    _PersistentCalls:
+    - _Target: {fileID: 1368950007}
+      _MethodName: AdjustPPUForDeviceOrientation
+      _PersistentArguments:
+      - _Type: 4
+        _Int: 2
+        _String: JellyFish.Monitor.ScreenSize.Orientation, JellyFish, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+  AndroidBuild: 0
+  HorizontalPPU:
+    ConstantValue: 0
+    UseConstant: 1
+    Variable: {fileID: 0}
+  VerticalPPU:
+    ConstantValue: 0
+    UseConstant: 1
+    Variable: {fileID: 0}
+  CurrentDeviceOrientation: 0
 --- !u!1 &1479565457
 GameObject:
   m_ObjectHideFlags: 0
