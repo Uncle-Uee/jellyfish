@@ -2,7 +2,7 @@
 A Unity Scriptable Object Workflow SDK inspired by Ryan Hipple's Unite 2017 talk "Game Architecture with Scriptable Objects".  
 I hope this SDK helps you the way it helps me.
 
-Please use [JellyFish - Beta](https://github.com/Uncle-Uee/jellyfish-beta)
+Please upgrade to [JellyFish - Beta](https://github.com/Uncle-Uee/jellyfish-beta) if you wish to use the newer features of the SDK. 
 
 ![JellyFish Astronaut](https://w.wallhaven.cc/full/g8/wallhaven-g8dm6e.jpg)
 
