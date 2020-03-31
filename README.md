@@ -49,4 +49,4 @@ For now Bug Fixes!
 # Important
 The Creator of the JellyFish Astronaut Image is [Angoes25](https://www.instagram.com/angoes25artwork/). All other plugins and addons are owned by their respective creators.
 
-JellyFish SDK is a open-source SDK for Unity.
+JellyFish SDK is an open-source SDK for Unity.
