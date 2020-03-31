@@ -1,0 +1,14 @@
+{
+    "Directories": [
+        "Assets/Resources\\Artwork",
+        "Assets/Resources\\Prefabs",
+        "Assets/Resources\\Scenes",
+        "Assets/Resources\\ScriptableObjects",
+        "Assets/Resources\\Tilemaps",
+        "Assets/Resources\\Tilemaps\\Maps",
+        "Assets/Resources\\Tilemaps\\Palettes",
+        "Assets/Resources\\Tilemaps\\Tiles",
+        "Assets/Scripts\\Runtime",
+        "Assets/Scripts\\URP"
+    ]
+}

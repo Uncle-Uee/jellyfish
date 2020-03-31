@@ -1,0 +1,14 @@
+{
+    "name": "UltEvents",
+    "references": [
+        "GUID:3a4e935828f104039b90d535bc856a32"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,115 @@
+{
+    "value__": [
+        {
+            "name": "player",
+            "instanceID": 14930,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "children": [
+                1,
+                2
+            ],
+            "components": [
+                {
+                    "typeName": "UnityEngine.Rigidbody2D",
+                    "instanceID": 14928,
+                    "sanitizedJson": "",
+                    "enginePropertyNames": [
+                        "inertia",
+                        "fixedAngle",
+                        "freezeRotation",
+                        "constraints",
+                        "name"
+                    ],
+                    "enginePropertyValues": [
+                        "{\"value__\":0.0}",
+                        "{\"value__\":true}",
+                        "{\"value__\":true}",
+                        "{\"value__\":4}",
+                        "{\"value__\":\"player\"}"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "[logic]",
+            "instanceID": 14918,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "children": [],
+            "components": []
+        },
+        {
+            "name": "[renderer]",
+            "instanceID": 14940,
+            "localPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "localScale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "children": [],
+            "components": [
+                {
+                    "typeName": "UnityEngine.SpriteRenderer",
+                    "instanceID": 14942,
+                    "sanitizedJson": "",
+                    "enginePropertyNames": [
+                        "size",
+                        "materials",
+                        "material",
+                        "sharedMaterial",
+                        "sharedMaterials",
+                        "name"
+                    ],
+                    "enginePropertyValues": [
+                        "{\"x\":0.3199999928474426,\"y\":0.3199999928474426}",
+                        "{\"value__\":[{\"instanceID\":-2414}]}",
+                        "{\"value__\":-2414}",
+                        "{\"value__\":-2414}",
+                        "{\"value__\":[{\"instanceID\":-2414}]}",
+                        "{\"value__\":\"[renderer]\"}"
+                    ]
+                }
+            ]
+        }
+    ]
+}

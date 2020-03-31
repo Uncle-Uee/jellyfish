@@ -1,0 +1,23 @@
+{
+    "name": "SOFlow",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:6546d7765b4165b40850b3667f981c26",
+        "GUID:5ba57be34047b1646b107a72f07e76b9",
+        "GUID:002c1bbed08fa44d282ef34fd5edb138",
+        "GUID:e3a1d479d94249943986ea30945e8768",
+        "GUID:91d118ffb54bf454f8ab7d2edf022da9",
+        "GUID:38b93c74112f23447b1a32939631a409",
+        "GUID:57a6d82589ae03c4cabdc058f719f231",
+        "GUID:3a4e935828f104039b90d535bc856a32"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

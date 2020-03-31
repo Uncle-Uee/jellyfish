@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438cb0c5853b0ed4e88daded5c9ffc21, type: 3}
+  m_Name: Example Resolution State
+  m_EditorClassIdentifier: 
+  DesignedScreenResolution: {x: 1920, y: 1080}
+  OnScreenResolutionChanged:
+    _PersistentCalls:
+    - _Target: {fileID: 11400000, guid: 9e8c8757541779c44afc35a8a47b8742, type: 2}
+      _MethodName: AddTo
+      _PersistentArguments:
+      - _Type: 3
+        _Int: 1
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 11400000, guid: 4629b2df357ad9844beb105f9755cdcb, type: 2}
+      _MethodName: Raise
+      _PersistentArguments: []

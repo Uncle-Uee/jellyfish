@@ -1,0 +1,20 @@
+{
+    "name": "JellyFish",
+    "references": [
+        "GUID:6546d7765b4165b40850b3667f981c26",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:57a6d82589ae03c4cabdc058f719f231",
+        "GUID:e5747a8330d959a40919b57aafcd86b5",
+        "GUID:76945fcdaec5633488bf964b781d031e",
+        "GUID:3a4e935828f104039b90d535bc856a32"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
