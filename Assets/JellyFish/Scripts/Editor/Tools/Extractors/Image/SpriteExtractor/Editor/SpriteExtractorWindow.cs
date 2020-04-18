@@ -4,8 +4,8 @@
  */
 
 #if UNITY_EDITOR
+using System.Collections.Generic;
 using System.IO;
-using SOFlow.Internal;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Assertions;
@@ -30,7 +30,6 @@ namespace JellyFish.EditorTools.SpriteExtractor
         }
 
         #endregion
-
 
         #region VARIABLES
 
@@ -106,7 +105,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
             SpriteSheetPathFields();
             FileHandlingButtons();
             ExtractButton();
-            DisplaySpriteSheetField();
+            SpriteSheetDisplayField();
         }
 
         #endregion
@@ -127,16 +126,12 @@ namespace JellyFish.EditorTools.SpriteExtractor
             {
                 if (_spriteSheet)
                 {
-                    _spriteSheet.MakeReadable(true);
-                    _path = AssetDatabase.GetAssetPath(_spriteSheet);
-                    _savePath = _path.Replace(Path.GetFileName(_path), "");
+                    _path     = AssetDatabase.GetAssetPath(_spriteSheet);
                 }
                 else
                 {
-                    _path = "";
-                    _savePath = "";
-                    _spriteSheet = null;
-                    _imageRect = Rect.zero;
+                    _path        = "";
+                    _imageRect   = Rect.zero;
                 }
             }
         }
@@ -165,7 +160,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
 
                     foreach (Object objectReference in DragAndDrop.objectReferences)
                     {
-                        _path = AssetDatabase.GetAssetPath(objectReference);
+                        _path     = AssetDatabase.GetAssetPath(objectReference);
                         _savePath = _path.Replace(Path.GetFileName(_path), "");
 
                         if (!(objectReference is Texture2D))
@@ -177,17 +172,12 @@ namespace JellyFish.EditorTools.SpriteExtractor
                         _spriteSheet = objectReference as Texture2D;
                         Assert.IsNotNull(_spriteSheet);
 
-                        if (!_spriteSheet.isReadable)
-                        {
-                            _spriteSheet.MakeReadable(true);
-                        }
-
                         if (!_autoExtractSelectedSprites)
                         {
                             break;
                         }
 
-                        SpriteExtractor.ExtractSprites(_spriteSheet, _savePath);
+                        SpriteExtractor.ExtractAllSprites(_spriteSheet);
                     }
                 }
                 // Log to make sure we cover all cases.
@@ -220,21 +210,21 @@ namespace JellyFish.EditorTools.SpriteExtractor
         }
 
         /// <summary>
-        /// Spritesheet Path and Extracted Sprites Save Path
+        /// Spritesheet Path and Extracted Sprites Save Path Fields
         /// </summary>
         private void SpriteSheetPathFields()
         {
             EditorGUILayout.BeginVertical(EditorStyles.helpBox);
 
             EditorGUILayout.TextField("Sprite Sheet Path:", _path, new GUIStyle
-            {
-                alignment = TextAnchor.MiddleLeft,
-            });
+                                                                   {
+                                                                       alignment = TextAnchor.MiddleLeft,
+                                                                   });
 
             EditorGUILayout.TextField("Extracted Sprites Path:", _savePath, new GUIStyle
-            {
-                alignment = TextAnchor.MiddleLeft
-            });
+                                                                            {
+                                                                                alignment = TextAnchor.MiddleLeft
+                                                                            });
 
             EditorGUILayout.EndVertical();
         }
@@ -275,15 +265,15 @@ namespace JellyFish.EditorTools.SpriteExtractor
             {
                 if (_spriteSheet)
                 {
-                    SpriteExtractor.ExtractSprites(_spriteSheet, _savePath);
+                    SpriteExtractor.ExtractAllSprites(_spriteSheet);
                 }
             }
         }
 
         /// <summary>
-        /// Display Sprite Sheet Field.
+        /// Sprite Sheet Display Field.
         /// </summary>
-        private void DisplaySpriteSheetField()
+        private void SpriteSheetDisplayField()
         {
             if (!_spriteSheet)
             {
@@ -300,7 +290,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
 
             if (_imageRect.Contains(Event.current.mousePosition) && Event.current.type == EventType.ScrollWheel)
             {
-                _width += _delta.y  * -9f;
+                _width  += _delta.y * -9f;
                 _height += _delta.y * -9f;
 
                 if (_width < IMAGE_WIDTH)
@@ -313,7 +303,7 @@ namespace JellyFish.EditorTools.SpriteExtractor
                     _height = IMAGE_HEIGHT;
                 }
 
-                _imageRect.width = _width;
+                _imageRect.width  = _width;
                 _imageRect.height = _height;
             }
 
