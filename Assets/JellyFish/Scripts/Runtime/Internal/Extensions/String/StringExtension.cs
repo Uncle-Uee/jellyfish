@@ -23,40 +23,17 @@ public static class StringExtension
             return value + " " + values[0];
         }
 
-        if (values.Length > 1 && values.Length <= 1000)
-        {
-            string output = value;
-
-            for (int i = 0; i < values.Length; i++)
-            {
-                if (values[i].GetType().IsArray)
-                {
-                    (values[i] as object[]).Display(ref output);
-                }
-                else
-                {
-                    output = string.Concat(output, values[i].ToString());
-                }
-            }
-
-            return output;
-        }
-
-        // Clear String Builder.
         StringBuilder stringBuilder = new StringBuilder();
-
-        // Add the Value Before Concatenating.
         stringBuilder.Append(value + " ");
-
-        for (int i = 0; i < values.Length; i++)
+        foreach (object element in values)
         {
-            if (values[i].GetType().IsArray)
+            if (element.GetType().IsArray)
             {
-                stringBuilder.Append((values[i] as object[]).Display());
+                stringBuilder.Append((element as object[]).Display());
             }
             else
             {
-                stringBuilder.Append(values[i]);
+                stringBuilder.Append(element);
             }
         }
 

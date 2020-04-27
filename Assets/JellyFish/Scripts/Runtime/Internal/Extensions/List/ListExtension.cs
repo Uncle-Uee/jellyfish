@@ -63,7 +63,7 @@ public static class ListExtension
     /// </summary>
     /// <param name="list"></param>
     /// <param name="log"></param>
-    public static void Display<T>(this List<T> list, bool log = true)
+    public static void Display<T>(this List<T> list)
     {
         string output = "";
 
@@ -72,14 +72,7 @@ public static class ListExtension
             output = output.Combine(list[i].ToString(), " ");
         }
 
-        if (log)
-        {
-            Debug.Log(output);
-        }
-        else
-        {
-            Console.WriteLine(output);
-        }
+        Debug.Log(output);
     }
 
     /// <summary>
@@ -93,9 +86,16 @@ public static class ListExtension
         List<int> entriesToRemove = new List<int>();
 
         for (int i = 0; i < list.Count; i++)
+        {
             if (list[i] == null || entryExistenceCheck != null && !entryExistenceCheck.Invoke(list[i]))
+            {
                 entriesToRemove.Add(i);
+            }
+        }
 
-        for (int i = entriesToRemove.Count - 1; i >= 0; i--) list.RemoveAt(entriesToRemove[i]);
+        for (int i = entriesToRemove.Count - 1; i >= 0; i--)
+        {
+            list.RemoveAt(entriesToRemove[i]);
+        }
     }
 }

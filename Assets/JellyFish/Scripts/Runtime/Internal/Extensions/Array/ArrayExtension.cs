@@ -2,6 +2,7 @@
  * Created By: Ubaidullah Effendi-Emjedi
  * LinkedIn : https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/
  */
+
 using System;
 using UnityEngine;
 using Random = System.Random;
@@ -52,40 +53,24 @@ public static class ArrayExtension
     }
 
     /// <summary>
-    /// Display Array Items.
-    /// </summary>
-    /// <param name="array"></param>
-    /// <param name="log"></param>
-    public static void Display(this Array array, bool log)
-    {
-        if (log)
-        {
-            Debug.Log(array.Display());
-        }
-        else
-        {
-            Console.WriteLine(array.Display());
-        }
-    }
-
-    /// <summary>
     /// Return String data of the Array Elements.
     /// </summary>
     /// <param name="array"></param>
     /// <returns></returns>
     public static string Display(this Array array)
     {
-        string output = "";
-        array.Display(ref output);
-
+        array.Display(out string output);
         return output;
     }
 
-    public static void Display(this Array array, ref string output)
+    public static void Display(this Array array, out string output)
     {
+        output = "";
         for (int i = 0; i < array.Length; i++)
         {
-            output = output.Combine(array.GetValue(i).ToString());
+            output = output.Combine($"{array.GetValue(i)}");
         }
+
+        output = output.Combine("\n");
     }
 }

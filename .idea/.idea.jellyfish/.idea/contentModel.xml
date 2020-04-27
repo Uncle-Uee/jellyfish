@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\mruee\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\mruee\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_jellyfish.-1745361699.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mruee\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mruee\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_jellyfish.-1745361699.00" t="ExcludeRecursive" />
     <e p="C:\Users\mruee\Documents\gitignore_global.txt" t="IncludeRecursive" />
     <e p="C:\Users\mruee\Documents\Projects\Version Control\Unity\jellyfish" t="IncludeRecursive">
       <e p=".git\info\exclude" t="IncludeRecursive" />
@@ -455,19 +455,6 @@
             </e>
             <e p="JellyFish.asmdef" t="Include" />
             <e p="Runtime" t="Include">
-              <e p="Animations" t="Include">
-                <e p="AnimationEvents" t="Include">
-                  <e p="Abstract" t="Include">
-                    <e p="AnimationEventsBase.cs" t="Include" />
-                  </e>
-                  <e p="GenericAnimationEvent.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Audio" t="Include">
-                <e p="AudioBridge.cs" t="Include" />
-                <e p="AudioController.cs" t="Include" />
-                <e p="AudioLink.cs" t="Include" />
-              </e>
               <e p="Camera Utilities" t="Include">
                 <e p="CameraReference.cs" t="Include" />
                 <e p="GameCamera.cs" t="Include" />
@@ -510,7 +497,6 @@
                     <e p="IMouseDrag.cs" t="Include" />
                     <e p="IMouseHover.cs" t="Include" />
                   </e>
-                  <e p="MouseHandler.cs" t="Include" />
                   <e p="PointAtMouse.cs" t="Include" />
                 </e>
               </e>
@@ -584,17 +570,6 @@
                 <e p="IPoolObject.cs" t="Include" />
                 <e p="ObjectPool.cs" t="Include" />
                 <e p="PoolObjectListReference.cs" t="Include" />
-              </e>
-              <e p="Player Input" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="GameInputDrawer.cs" t="Include" />
-                  <e p="GameInputListenerEditor.cs" t="Include" />
-                </e>
-                <e p="GameInput.cs" t="Include" />
-                <e p="GameInputListener.cs" t="Include" />
-                <e p="InputKey.cs" t="Include" />
-                <e p="LookAtMousePosition.cs" t="Include" />
-                <e p="PhysicsCharacterController.cs" t="Include" />
               </e>
             </e>
           </e>
