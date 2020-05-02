@@ -1,5 +1,5 @@
-﻿using JellyFish.CameraUtilities;
-using SOFlow.Data.Primitives;
+﻿using SOFlow.Data.Primitives;
+using JellyFish.Internal.Utilities;
 using UnityEngine;
 
 namespace JellyFish.Interactions.Mouse

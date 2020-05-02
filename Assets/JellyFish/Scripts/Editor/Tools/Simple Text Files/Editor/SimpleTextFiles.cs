@@ -5,11 +5,11 @@
 
 using System.IO;
 using UnityEngine;
-using JellyFish.EditorTools.Utilities;
+using JellyFish.Editor.Utilities;
 #if UNITY_EDITOR
 using UnityEditor;
 
-namespace JellyFish.EditorTools.TextFiles
+namespace JellyFish.Editor.Tools.TextFiles
 {
     public static class SimpleTextFiles
     {
@@ -28,7 +28,7 @@ namespace JellyFish.EditorTools.TextFiles
             if (folder != null)
             {
                 string directory = AssetDatabase.GetAssetPath(folder);
-                string path = "";
+                string path      = "";
 
                 if (Directory.Exists(directory))
                 {

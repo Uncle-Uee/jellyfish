@@ -1,5 +1,5 @@
-﻿using JellyFish.CameraUtilities;
-using SOFlow.Data.Primitives;
+﻿using SOFlow.Data.Primitives;
+using JellyFish.Internal.Utilities;
 using UnityEngine;
 
 namespace JellyFish.Interactions.Mouse
@@ -90,7 +90,7 @@ namespace JellyFish.Interactions.Mouse
             if (!Camera || !Follow) return;
 
             CurrentPosition.Value = transform.position;
-            _mousePosition = Camera.ScreenToWorldPoint(Input.mousePosition);
+            _mousePosition        = Camera.ScreenToWorldPoint(Input.mousePosition);
 
             if (UseIn2DSpace)
             {

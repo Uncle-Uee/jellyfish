@@ -11,7 +11,7 @@ using Object = UnityEngine.Object;
 using UnityEditor;
 using UnityEditor.Callbacks;
 
-namespace JellyFish.EditorTools.QuickSetup
+namespace JellyFish.Editor.Tools.QuickSetup
 {
     /// <summary>
     /// Simple GameObject Hierarchy Serializer that can easily Serialize a selected GameObjects complete Hierarchy into a simple Json Format "GHJson"

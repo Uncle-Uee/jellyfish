@@ -8,7 +8,7 @@ using System.IO;
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace JellyFish.EditorTools.Utilities
+namespace JellyFish.Editor.Utilities
 {
     public static class SimpleFileCreator
     {

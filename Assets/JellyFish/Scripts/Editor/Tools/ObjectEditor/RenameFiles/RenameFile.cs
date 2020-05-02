@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace JellyFish.EditorTools.ObjectEditor
+namespace JellyFish.Editor.Tools.ObjectEditor
 {
     public class RenameFile : EditorWindow
     {

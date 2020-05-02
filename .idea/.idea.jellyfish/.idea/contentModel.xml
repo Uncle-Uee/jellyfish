@@ -403,19 +403,6 @@
           <e p="Scripts" t="Include">
             <e p="Editor" t="Include">
               <e p="Tools" t="Include">
-                <e p="Extractors" t="Include">
-                  <e p="Image" t="Include">
-                    <e p="GIFExtractor" t="Include">
-                      <e p="QuickGIFExtractor.cs" t="Include" />
-                    </e>
-                    <e p="SpriteExtractor" t="Include">
-                      <e p="Editor" t="Include">
-                        <e p="SpriteExtractorWindow.cs" t="Include" />
-                      </e>
-                      <e p="SpriteExtractor.cs" t="Include" />
-                    </e>
-                  </e>
-                </e>
                 <e p="Json Editor" t="Include">
                   <e p="Editor" t="Include">
                     <e p="JsonEditorWindow.cs" t="Include" />
@@ -423,33 +410,12 @@
                   <e p="SimpleJsonEntry.cs" t="Include" />
                   <e p="SimpleJsonList.cs" t="Include" />
                 </e>
-                <e p="ObjectEditor" t="Include">
-                  <e p="RenameFiles" t="Include">
-                    <e p="RenameFile.cs" t="Include" />
-                  </e>
-                </e>
                 <e p="Quick Setup" t="Include">
                   <e p="GameObject Hierarchy" t="Include">
                     <e p="Editor" t="Include">
                       <e p="GHSerializer.cs" t="Include" />
                     </e>
                   </e>
-                  <e p="Project Directories" t="Include">
-                    <e p="Editor" t="Include">
-                      <e p="PDSerializer.cs" t="Include" />
-                      <e p="ProjectDirectories.cs" t="Include" />
-                    </e>
-                  </e>
-                </e>
-                <e p="Simple Text Files" t="Include">
-                  <e p="Editor" t="Include">
-                    <e p="SimpleTextFiles.cs" t="Include" />
-                  </e>
-                </e>
-              </e>
-              <e p="Utilities" t="Include">
-                <e p="SimpleFileCreator" t="Include">
-                  <e p="SimpleFileCreator.cs" t="Include" />
                 </e>
               </e>
             </e>

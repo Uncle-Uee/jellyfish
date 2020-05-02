@@ -16,7 +16,7 @@ using UnityEditor;
 using UnityEngine;
 
 // ReSharper disable once CheckNamespace
-namespace JellyFish.EditorTools.JsonEditor
+namespace JellyFish.Editor.Tools.JsonEditor
 {
     public class JsonEditorWindow : EditorWindow
     {

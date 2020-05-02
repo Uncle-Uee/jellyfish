@@ -11,7 +11,7 @@ using UnityEditor.Callbacks;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace JellyFish.EditorTools.QuickSetup
+namespace JellyFish.Editor.Tools.QuickSetup
 {
     [CanEditMultipleObjects]
     public static class PDSerializer

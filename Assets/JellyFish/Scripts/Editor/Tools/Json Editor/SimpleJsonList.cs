@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 
 // ReSharper disable once CheckNamespace
-namespace JellyFish.EditorTools.JsonEditor
+namespace JellyFish.Editor.Tools.JsonEditor
 {
     [Serializable]
     public class SimpleJsonList

@@ -5,7 +5,7 @@
 
 using System.Collections.Generic;
 
-namespace JellyFish.EditorTools.QuickSetup
+namespace JellyFish.Editor.Tools.QuickSetup
 {
     internal class ProjectDirectories
     {
