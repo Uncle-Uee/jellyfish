@@ -38,9 +38,9 @@ For now Bug Fixes!
 2. [Ryan Hipple](https://github.com/roboryantron) - Game Architecture with Scriptable Objects Unite 2017 Talk
 3. [Kybernetik](https://kybernetikgames.github.io/kailas-dierk/) - UltEvents
 4. [Thor Brigsted](https://github.com/Siccity) - xNode
-7. [Angoes Artwork Instagram](https://www.instagram.com/angoes25artwork/) Creator of the JellyFish Astronaut Image
-8. [Angoes Facebook](https://www.facebook.com/Angoes25Studio/) Creator of the JellyFish Astronaut Image
-9. [Angoes TeePublic](https://www.teepublic.com/user/angoes25) Creator of the JellyFish Astronaut Image
+5. [Angoes Artwork Instagram](https://www.instagram.com/angoes25artwork/) Creator of the JellyFish Astronaut Image
+6. [Angoes Facebook](https://www.facebook.com/Angoes25Studio/) Creator of the JellyFish Astronaut Image
+7. [Angoes TeePublic](https://www.teepublic.com/user/angoes25) Creator of the JellyFish Astronaut Image
 
 # Details
 1. [LinkedIn Profile](https://www.linkedin.com/in/ubaidullah-effendi-emjedi-202494183/)  
