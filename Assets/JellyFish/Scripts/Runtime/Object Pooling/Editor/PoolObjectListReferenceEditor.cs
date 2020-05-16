@@ -31,31 +31,20 @@ namespace JellyFish.ObjectPooling
                     .DrawHorizontalColourLayer(SOFlowEditorSettings.SecondaryLayerColour,
                                                () =>
                                                {
-                                                   EditorGUILayout
-                                                       .LabelField("Total Pool Objects",
-                                                                   SOFlowStyles
-                                                                       .Label);
+                                                   EditorGUILayout.LabelField("Total Pool Objects",
+                                                                              SOFlowStyles
+                                                                                  .Label);
 
-                                                   EditorGUILayout
-                                                       .LabelField(_target.PoolObjectCount.ToString(),
-                                                                   SOFlowStyles
-                                                                       .BoldLeftLabel);
+                                                   EditorGUILayout.LabelField(_target.PoolObjectCount.ToString(),
+                                                                              SOFlowStyles
+                                                                                  .BoldLeftLabel);
                                                });
 
                 SOFlowEditorUtilities.DrawSecondaryLayer(() =>
                 {
-                    foreach (
-                        IPoolObjectRoot
-                            poolObject
-                        in _target
-                            .PoolObjects)
+                    foreach (IPoolObjectRoot poolObject in _target.PoolObjects)
                     {
-                        EditorGUILayout
-                            .ObjectField(poolObject.GetObjectInstance(),
-                                         typeof
-                                         (Object
-                                         ),
-                                         false);
+                        EditorGUILayout.ObjectField(poolObject.GetObjectInstance(), typeof(Object), false);
                     }
                 });
             });

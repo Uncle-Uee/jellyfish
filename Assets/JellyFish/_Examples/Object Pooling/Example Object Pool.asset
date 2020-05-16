@@ -14,11 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AvailableObjects:
   - {fileID: 1835230473377043867, guid: d0d5cd48129607f4eb21b7db820ea5ae, type: 3}
+  - {fileID: 1835230473377043867, guid: d0d5cd48129607f4eb21b7db820ea5ae, type: 3}
+  - {fileID: 1835230473377043867, guid: d0d5cd48129607f4eb21b7db820ea5ae, type: 3}
   InitialPoolSizePerObject:
     UseConstant: 1
     ConstantValueType: 5
     VariableType: {fileID: 0}
+    OnConstantValueChanged:
+      _PersistentCalls: []
+    _displayValueChangedEvent: 0
   PoolSizeExtensionAmount:
     UseConstant: 1
     ConstantValueType: 5
     VariableType: {fileID: 0}
+    OnConstantValueChanged:
+      _PersistentCalls: []
+    _displayValueChangedEvent: 0
