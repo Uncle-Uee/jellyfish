@@ -24,16 +24,19 @@ There are many more other features that are not listed. I will make Example Scen
 # Roadmap
 For now Bug Fixes!
 
-# Asset Store Packages
+# Packages and Plugins
+## GitHub
+1. [UnityAsync](https://github.com/muckSponge/UnityAsync)
+
+## AssetStore Packages
 1. [UltEvents](https://assetstore.unity.com/packages/tools/gui/ultevents-111307?aid=1100l8ah5&utm_source=aff)
 2. [xNode](https://assetstore.unity.com/packages/tools/visual-scripting/xnode-104276)
 
-# Nuget Packages and Plugins
+## Nuget Packages and Plugins
 1. [SimpleJSON](http://wiki.unity3d.com/index.php/SimpleJSON)
-2. [UnityAsync](https://github.com/muckSponge/UnityAsync)
-3. [System.Drawing.Common](https://www.nuget.org/packages/System.Drawing.Common/)
+2. [System.Drawing.Common](https://www.nuget.org/packages/System.Drawing.Common/)
 
-# Contributors
+# Attribtions
 1. [Kearan Petersen](https://github.com/BLUDRAG) - Mentor and Nakama
 2. [Ryan Hipple](https://github.com/roboryantron) - Game Architecture with Scriptable Objects Unite 2017 Talk
 3. [Kybernetik](https://kybernetikgames.github.io/kailas-dierk/) - UltEvents
